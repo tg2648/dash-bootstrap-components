@@ -5,7 +5,7 @@ button <- htmlDiv(
   list(
     dbcButton("Click me",
       id = "example-button", n_clicks = 0,
-      className = "me-2"
+      class_name = "me-2"
     ),
     htmlSpan(id = "example-output", style = list(verticalAlign = "middle"))
   )

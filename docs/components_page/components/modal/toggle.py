@@ -9,7 +9,7 @@ modal_1 = dbc.Modal(
             dbc.Button(
                 "Open Modal 2",
                 id="open-toggle-modal-2",
-                className="ms-auto",
+                class_name="ms-auto",
                 n_clicks=0,
             )
         ),
@@ -26,7 +26,7 @@ modal_2 = dbc.Modal(
             dbc.Button(
                 "Back to Modal 1",
                 id="open-toggle-modal-1",
-                className="ms-auto",
+                class_name="ms-auto",
                 n_clicks=0,
             )
         ),

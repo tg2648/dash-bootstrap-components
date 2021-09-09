@@ -17,7 +17,7 @@ modal <- htmlDiv(
           value = TRUE,
         )
       ),
-      className = "mb-2"
+      class_name = "mb-2"
     ),
     dbcButton("Open modal", id = "open-backdrop", n_clicks = 0),
     dbcModal(
@@ -30,7 +30,7 @@ modal <- htmlDiv(
           dbcButton(
             "Close",
             id = "close-backdrop",
-            className = "ms-auto",
+            class_name = "ms-auto",
             n_clicks = 0
           )
         )

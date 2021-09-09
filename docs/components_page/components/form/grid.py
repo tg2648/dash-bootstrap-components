@@ -25,5 +25,5 @@ form = dbc.Row(
             width=6,
         ),
     ],
-    className="g-3",
+    class_name="g-3",
 )

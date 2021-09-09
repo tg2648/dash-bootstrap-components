@@ -15,7 +15,7 @@ backdrop_selector = html.Div(
             value=True,
         ),
     ],
-    className="mb-2",
+    class_name="mb-2",
 )
 
 offcanvas = html.Div(

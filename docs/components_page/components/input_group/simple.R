@@ -7,14 +7,14 @@ input_groups <- htmlDiv(
         dbcInputGroupText("@"),
         dbcInput(placeholder = "Username")
       ),
-      className = "mb-3"
+      class_name = "mb-3"
     ),
     dbcInputGroup(
       list(
         dbcInput(placeholder = "Recipient's username"),
         dbcInputGroupText("@example.com")
       ),
-      className = "mb-3"
+      class_name = "mb-3"
     ),
     dbcInputGroup(
       list(
@@ -22,7 +22,7 @@ input_groups <- htmlDiv(
         dbcInput(placeholder = "Amount", type = "number"),
         dbcInputGroupText(".00")
       ),
-      className = "mb-3"
+      class_name = "mb-3"
     ),
     dbcInputGroup(
       list(
@@ -32,14 +32,14 @@ input_groups <- htmlDiv(
         dbcInputGroupText(".00"),
         dbcInputGroupText("only")
       ),
-      className = "mb-3"
+      class_name = "mb-3"
     ),
     dbcInputGroup(
       list(
         dbcInputGroupText("With textarea"),
         dbcTextarea()
       ),
-      className = "mb-3"
+      class_name = "mb-3"
     ),
     dbcInputGroup(
       list(

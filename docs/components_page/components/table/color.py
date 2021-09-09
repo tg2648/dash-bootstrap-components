@@ -19,7 +19,7 @@ color_selector = html.Div(
             value="primary",
         ),
     ],
-    className="p-3 m-2 border",
+    class_name="p-3 m-2 border",
 )
 
 table = html.Div(

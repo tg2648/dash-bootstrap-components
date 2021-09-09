@@ -17,7 +17,7 @@ modal = html.Div(
                     value=True,
                 ),
             ],
-            className="mb-2",
+            class_name="mb-2",
         ),
         dbc.Button("Open modal", id="open-backdrop", n_clicks=0),
         dbc.Modal(
@@ -30,7 +30,7 @@ modal = html.Div(
                     dbc.Button(
                         "Close",
                         id="close-backdrop",
-                        className="ms-auto",
+                        class_name="ms-auto",
                         n_clicks=0,
                     )
                 ),

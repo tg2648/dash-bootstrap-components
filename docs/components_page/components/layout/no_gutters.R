@@ -7,5 +7,5 @@ row <- dbcRow(
     dbcCol(htmlDiv("One of three columns")),
     dbcCol(htmlDiv("One of three columns"))
   ),
-  className = "g-0"
+  class_name = "g-0"
 )

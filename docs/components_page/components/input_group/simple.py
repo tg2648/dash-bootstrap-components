@@ -5,14 +5,14 @@ input_groups = html.Div(
     [
         dbc.InputGroup(
             [dbc.InputGroupText("@"), dbc.Input(placeholder="Username")],
-            className="mb-3",
+            class_name="mb-3",
         ),
         dbc.InputGroup(
             [
                 dbc.Input(placeholder="Recipient's username"),
                 dbc.InputGroupText("@example.com"),
             ],
-            className="mb-3",
+            class_name="mb-3",
         ),
         dbc.InputGroup(
             [
@@ -20,7 +20,7 @@ input_groups = html.Div(
                 dbc.Input(placeholder="Amount", type="number"),
                 dbc.InputGroupText(".00"),
             ],
-            className="mb-3",
+            class_name="mb-3",
         ),
         dbc.InputGroup(
             [
@@ -30,14 +30,14 @@ input_groups = html.Div(
                 dbc.InputGroupText(".00"),
                 dbc.InputGroupText("only"),
             ],
-            className="mb-3",
+            class_name="mb-3",
         ),
         dbc.InputGroup(
             [
                 dbc.InputGroupText("With textarea"),
                 dbc.Textarea(),
             ],
-            className="mb-3",
+            class_name="mb-3",
         ),
         dbc.InputGroup(
             [

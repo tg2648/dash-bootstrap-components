@@ -16,7 +16,7 @@ placement_selector <- htmlDiv(
       inline = TRUE
     )
   ),
-  className = "mb-2"
+  class_name = "mb-2"
 )
 
 offcanvas <- htmlDiv(

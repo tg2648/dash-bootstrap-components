@@ -6,5 +6,5 @@ button = html.Div(
         dbc.Button("Block button", color="primary"),
         dbc.Button("Block button", color="secondary"),
     ],
-    className="d-grid gap-2 d-md-block",
+    class_name="d-grid gap-2 d-md-block",
 )

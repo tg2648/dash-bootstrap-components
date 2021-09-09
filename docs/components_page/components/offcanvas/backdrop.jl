@@ -14,7 +14,7 @@ backdrop_selector = html_div(
             value = true,
         ),
     ],
-    className = "mb-2",
+    class_name = "mb-2",
 )
 
 offcanvas = html_div([

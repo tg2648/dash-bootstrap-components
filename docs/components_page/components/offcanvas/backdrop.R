@@ -15,7 +15,7 @@ backdrop_selector <- htmlDiv(
       value = TRUE
     )
   ),
-  className = "mb-2"
+  class_name = "mb-2"
 )
 
 

@@ -7,11 +7,11 @@ card = dbc.Card(
         dbc.CardImgOverlay(
             dbc.CardBody(
                 [
-                    html.H4("Card title", className="card-title"),
+                    html.H4("Card title", class_name="card-title"),
                     html.P(
                         "An example of using an image in the background of "
                         "a card.",
-                        className="card-text",
+                        class_name="card-text",
                     ),
                     dbc.Button("Go somewhere", color="primary"),
                 ],

@@ -15,7 +15,7 @@ modal = html_div([
                 value = true,
             ),
         ],
-        className = "mb-2",
+        class_name = "mb-2",
     ),
     dbc_button("Open modal", id = "open-backdrop", n_clicks = 0),
     dbc_modal(
@@ -26,7 +26,7 @@ modal = html_div([
                 dbc_button(
                     "Close",
                     id = "close-backdrop",
-                    className = "ms-auto",
+                    class_name = "ms-auto",
                     n_clicks = 0,
                 ),
             ),

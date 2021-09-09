@@ -8,34 +8,34 @@ card <- dbcCard(
         dbcCol(
           dbcCardImg(
             src = "/static/images/placeholder286x180.png",
-            className = "img-fluid rounded-start"
+            class_name = "img-fluid rounded-start"
           ),
-          className = "col-md-4"
+          class_name = "col-md-4"
         ),
         dbcCol(
           dbcCardBody(
             list(
-              htmlH4("Card title", className = "card-title"),
+              htmlH4("Card title", class_name = "card-title"),
               htmlP(
                 paste(
                   "This is a wider card with supporting text",
                   "below as a natural lead-in to additional",
                   "content. This content is a bit longer."
                 ),
-                className = "card-text"
+                class_name = "card-text"
               ),
               htmlSmall(
                 "Last updated 3 mins ago",
-                className = "card-text text-muted"
+                class_name = "card-text text-muted"
               )
             )
           ),
-          className = "col-md-8"
+          class_name = "col-md-8"
         )
       ),
-      className = "g-0 d-flex align-items-center"
+      class_name = "g-0 d-flex align-items-center"
     )
   ),
-  className = "mb-3",
+  class_name = "mb-3",
   style = list("maxWidth" = "540px")
 )

@@ -4,15 +4,15 @@ library(dashHtmlComponents)
 jumbotron <- htmlDiv(
   dbcContainer(
     list(
-      htmlH1("Jumbotron", className = "display-3"),
+      htmlH1("Jumbotron", class_name = "display-3"),
       htmlP(
         paste(
           "Use Containers to create a jumbotron to call attention to",
           "featured content or information."
         ),
-        className = "lead"
+        class_name = "lead"
       ),
-      htmlHr(className = "my-2"),
+      htmlHr(class_name = "my-2"),
       htmlP(
         paste(
           "Use utility classes for typography and spacing to suit the",
@@ -21,11 +21,11 @@ jumbotron <- htmlDiv(
       ),
       htmlP(
         dbcButton("Learn more", color = "primary"),
-        className = "lead"
+        class_name = "lead"
       )
     ),
     fluid = TRUE,
-    className = "py-3"
+    class_name = "py-3"
   ),
-  className = "p-3 bg-light rounded-3"
+  class_name = "p-3 bg-light rounded-3"
 )

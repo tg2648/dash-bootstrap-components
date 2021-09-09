@@ -7,14 +7,14 @@ collapses = html.Div(
             "Toggle left",
             color="primary",
             id="left",
-            className="me-1",
+            class_name="me-1",
             n_clicks=0,
         ),
         dbc.Button(
             "Toggle right",
             color="primary",
             id="right",
-            className="me-1",
+            class_name="me-1",
             n_clicks=0,
         ),
         dbc.Button("Toggle both", color="primary", id="both", n_clicks=0),
@@ -35,7 +35,7 @@ collapses = html.Div(
                     )
                 ),
             ],
-            className="mt-3",
+            class_name="mt-3",
         ),
     ]
 )

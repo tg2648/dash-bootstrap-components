@@ -10,7 +10,7 @@ button_groups <- htmlDiv(
         dbcButton("Right")
       ),
       size = "lg",
-      className = "me-1",
+      class_name = "me-1",
     ),
     dbcButtonGroup(
       list(
@@ -18,7 +18,7 @@ button_groups <- htmlDiv(
         dbcButton("Right")
       ),
       size = "md",
-      className = "me-1",
+      class_name = "me-1",
     ),
     dbcButtonGroup(
       list(

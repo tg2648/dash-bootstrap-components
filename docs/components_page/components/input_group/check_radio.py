@@ -5,7 +5,7 @@ input_groups = html.Div(
     [
         dbc.InputGroup(
             [dbc.InputGroupText(dbc.RadioButton()), dbc.Input()],
-            className="mb-3",
+            class_name="mb-3",
         ),
         dbc.InputGroup([dbc.InputGroupText(dbc.Checkbox()), dbc.Input()]),
     ]

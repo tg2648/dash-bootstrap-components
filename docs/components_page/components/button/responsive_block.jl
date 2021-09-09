@@ -6,5 +6,5 @@ button = html_div(
         dbc_button("Block button", color = "primary"),
         dbc_button("Block button", color = "secondary"),
     ],
-    className = "d-grid gap-2 d-md-block",
+    class_name = "d-grid gap-2 d-md-block",
 );

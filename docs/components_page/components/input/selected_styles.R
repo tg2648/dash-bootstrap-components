@@ -24,8 +24,8 @@ checklist <- htmlDiv(
         list(label = "Option 2", value = 2),
         list(label = "Option 3", value = 3)
       ),
-      labelCheckedClassName = "text-success",
-      inputCheckedClassName = "border border-success bg-success"
+      label_checked_class_name = "text-success",
+      input_checked_class_name = "border border-success bg-success"
     )
   )
 )
