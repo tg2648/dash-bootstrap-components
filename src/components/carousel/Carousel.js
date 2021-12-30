@@ -28,9 +28,11 @@ const Carousel = props => {
         ? item.imgClassName
         : 'd-block w-100';
 
+    const Tag = item.type || 'img';
+
     return (
       <RBCarousel.Item key={item.key}>
-        <img
+        <Tag
           src={item.src}
           className={item.img_class_name || item.imgClassName}
           style={item.img_style}
